@@ -256,8 +256,27 @@ span {
         justify-content: space-around;
         margin-bottom: 25px;
     }
-    
+
     .button {
         width: 50px;
+    }
+
+    .nome1 {
+        width: 100%;
+    }
+
+    @media(max-width: 480px){
+        .footer-navigation {
+            display: block;
+            margin-top: 0;
+        }
+    
+        nav {
+            display: none;
+        }
+    
+        #banner {
+            background-position: 17.5%;
+        }
     }
 }
