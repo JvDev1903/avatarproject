@@ -256,4 +256,8 @@ span {
         justify-content: space-around;
         margin-bottom: 25px;
     }
+    
+    .button {
+        color: #fff;
+    }
 }
