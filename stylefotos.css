@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: 'Kdan Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #00b8e6;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('http://slidechef.net/wp-content/uploads/2022/09/Avatar-The-Way-of-Water.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.content {
+    font-family: 'Kdan Thmor Pro', sans-serif;   
+    font-size: 15px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://mundoconectado.com.br/uploads/chamadas/avatar-o-caminho-agua.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://www.otempo.com.br/image/contentid/policy:1.2828183:1678674526/7nxsgbckrjkq7v9p76q9gpxb-png.png?f=3x2&w=1224');
+}
+
+.banner-3 {
+    background-image: url('https://ingresso-a.akamaihd.net/b2b/production/uploads/articles-content/688e4ae2-77ef-4dcf-a16f-fa3016090004.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://veja.abril.com.br/wp-content/uploads/2022/12/ABRE-FILME-AVATAR-2-O-CAMINHO-DA-AGUA-2022-002.jpg.jpg?quality=70&strip=info');
+}
+
+.banner-5 {
+    background-image: url('https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2022/05/avatar-2.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://sucodemanga.com.br/wp-content/uploads/2023/01/Avatar-O-Caminho-da-Agua-1-scaled.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+span {
+    color: #fff;
+    font-family: 'Kdan Thmor Pro', sans-serif;
+}    
+
+.footer-navigation {
+    display: none;    
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+        margin-top: 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 15%;
+    }
+
+    .content {
+        margin-left: 4px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        margin-right: 9px;
+    }
+}
