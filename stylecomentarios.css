@@ -160,9 +160,9 @@ span {
             justify-content: center;
         }
 
-        .card {
+       .card {
             width: 77%;
-            height: 390px;
+            height: 370px;
             margin-top: 50px;
           }
 }
